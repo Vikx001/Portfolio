@@ -1,74 +1,90 @@
-const logotext = "JOHN";
+const logotext = "VIKASH SHARMA";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Vikash Sharma",
+    description: "I’m Vikash Sharma Software Engineer, Full stack devloper, currently studying Ms DevOps in computing",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Vikash sharma",
     animated: {
         first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        second: "I code cool websites ",
+        third: "I develop interesting softwares ",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "As a Full-Stack Software Engineer, I've had the privilege to spearhead multi-million-dollar projects , architecting frontend features, and implementing robust backend APIs and microservices. My expertise in secure coding practices and meticulous attention to detail has enabled me to create CI/CD pipelines for seamless, automated releases on AWS. I believe in the power of Test-Driven Development (TDD) and have authored comprehensive test cases with XUnit for backend and Jest for frontend, ensuring top-notch security and performance.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "A bit about my self",
+    aboutme: "Passionate Full-Stack Software Engineer with a track record of leading multi-million-dollar projects. Expertise in frontend architecture, robust backend APIs, and microservices. Proven commitment to secure coding, CI/CD automation on AWS, and Test-Driven Development (TDD) using XUnit and Jest. Enthusiastic about leveraging technology to drive innovation.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Associate Software Engineer",
+        where: "Acuity knowledge parteners, Bangalore (India)",
+        date: "2022-23",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Full Stack Software Engineer ( Intern )",
+        where: "Acuity knowledge parteners, Bangalore (India)",
+        date: "2022",
     },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
+    
 ];
 
 const skills = [{
-        name: "Python",
-        value: 90,
-    },
-    {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
+        name: "Languages: C# | .NET | Java | JavaScript | TypeScript | C++ | C",
         value: 80,
     },
     {
-        name: "React",
+        name: "Frontend: ReactJS | jQuery",
+        value: 85,
+    },
+    {
+        name: "Cloud & Deployment: AWS | CI/CD ",
+        value: 70,
+    },
+    {
+        name: "Database: MSSQL",
+        value: 80,
+    },
+    {
+        name: "Version Control: Git",
+        value: 85,
+    },
+    {
+        name: "Testing: Xunit | Jest | Unit Testing",
         value: 60,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "Design Patterns: OOP | Microservices | API Designing",
+        value: 70,
+    },
+    {
+        name: "Agile Methodologies: Agile | Scrum | Documentation",
+        value: 90,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: " Website Devlopement ",
+        description: "Crafting digital experiences that leave a lasting impression. As a seasoned Full-Stack Software Engineer, I specialize in architecting and developing seamless websites. From creating elegant frontend features to implementing robust backend APIs, my focus is on delivering top-tier, secure, and high-performance websites. With a passion for innovation and meticulous attention to detail, I bring a wealth of expertise to every project, ensuring a distinctive and user-centric online presence for clients.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Full Stack Developement ",
+        description: "Unlock the full potential of your digital venture with my end-to-end development expertise. Seamlessly blending captivating frontend design using ReactJS and jQuery with powerful backend solutions in C#, .NET, Java, and more, I specialize in crafting websites that marry aesthetics with functionality. Elevate your online presence with a holistic approach to web development, ensuring your site not only looks exceptional but performs seamlessly across the board.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: " Cloud solution and deployment ",
+        description: "Provide cloud-based solutions on AWS, including expertise in CI/CD and Code Pipeline maintenance for seamless deployments.",
+    },
+    {
+        title: " Testing and Quality Assurance ",
+        description: "Offer comprehensive testing services using Xunit and Jest, ensuring robust, secure, and high-performance applications.",
+    },
+    {
+        title: " Database Design and Integration ",
+        description: "Specialize in designing and integrating databases, with a focus on MSSQL.",
     },
 ];
 
@@ -136,9 +152,9 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
+    YOUR_EMAIL: "vihaans079@gmail.com",
     YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    description: " Get in touch for best developement services. ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -148,9 +164,9 @@ const contactConfig = {
 
 const socialprofils = {
     github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
+    linkedin: "https://www.linkedin.com/in/vikash-sharma-253457214/",
     twitter: "https://twitter.com",
+    Leetcode: "https://leetcode.com/Vihaanx001/"
 };
 export {
     meta,
